@@ -8,5 +8,5 @@ module instructionMemory(
                          instructionMemory[address[31:2]];
 
     initial
-        $readmemh("instructions_i.hex", instructionMemory);
+        $readmemh("instructions.hex", instructionMemory);
 endmodule
